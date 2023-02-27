@@ -232,7 +232,7 @@ ul {
 .landing {
   height: calc(100vh);
   background-color: var(--mainColor);
-  background-image: url("/sources/landing.jpg");
+  background-image: url("../sources/landing.jpg");
   background-size: cover;
   position: relative;
 }
@@ -452,7 +452,7 @@ ul {
   overflow: hidden;
   position: relative;
 }
-.boxes .box .info{
+.boxes .box .info {
   position: absolute;
   background-color: white;
   width: 100%;
@@ -479,15 +479,15 @@ ul {
   height: 100%;
   transition: transform 0.4s;
 }
-.boxes .box:hover img{
-    transform: rotate(3deg)  scale(1.1);
+.boxes .box:hover img {
+  transform: rotate(3deg) scale(1.1);
 }
 
-.boxes .box:hover .info{
-    display: flex;
-    bottom: 0;
+.boxes .box:hover .info {
+  display: flex;
+  bottom: 0;
 }
-.boxes .box:hover::before{
+.boxes .box:hover::before {
   content: "+";
   position: absolute;
   width: 70px;
@@ -496,7 +496,7 @@ ul {
   border-radius: 50%;
   top: 45%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -566,16 +566,16 @@ ul {
 .about {
   overflow: hidden;
 }
-.about img{
+.about img {
   display: block;
   margin: 0 auto;
-  transform: translate(0,100px);
+  transform: translate(0, 100px);
   max-width: 100%;
   margin-top: -100px;
 }
-@media (max-width:767px) {
-  .about img{
-    transform: translate(0,50px);
+@media (max-width: 767px) {
+  .about img {
+    transform: translate(0, 50px);
     margin-top: -50px;
   }
 }
@@ -599,7 +599,7 @@ ul {
   color: white;
   width: 25%;
 }
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .statistics .panel .section {
     width: 100%;
     margin-bottom: 50px;
@@ -619,11 +619,11 @@ ul {
   margin-right: auto;
   font-size: 15px;
 }
-.statistics .panel .section h2{
+.statistics .panel .section h2 {
   font-size: 40px;
   padding: 20px 0 10px;
 }
-.statistics .panel .section p{
+.statistics .panel .section p {
   padding: 0px 0 40px;
   font-size: 14px;
   text-transform: capitalize;
@@ -647,7 +647,7 @@ ul {
 .review-skills .skills {
   width: 100%;
 }
-@media (min-width:991px) {
+@media (min-width: 991px) {
   .review-skills .review,
   .review-skills .skills {
     width: 45%;
@@ -656,13 +656,13 @@ ul {
 .small-heading {
   text-align: center;
 }
-.small-heading h3{
+.small-heading h3 {
   font-size: 20px;
   font-weight: 100;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-.small-heading p{
+.small-heading p {
   width: 450px;
   max-width: 100%;
   padding-left: 20px;
@@ -675,19 +675,19 @@ ul {
 .review-skills .review-container {
   margin-bottom: 100px;
 }
-.review-skills .review-container .box{
+.review-skills .review-container .box {
   display: flex;
   margin-bottom: 30px;
   flex-direction: column;
   text-align: center;
 }
 @media (min-width: 991px) {
-  .review-skills .review-container .box{
-  flex-direction: row;
-  text-align: left;
+  .review-skills .review-container .box {
+    flex-direction: row;
+    text-align: left;
+  }
 }
-}
-.review-skills .review-container .box .image{
+.review-skills .review-container .box .image {
   width: 120px;
   height: 120px;
   background-color: var(--mainColor);
@@ -699,20 +699,20 @@ ul {
   overflow: hidden;
 }
 @media (min-width: 991px) {
-  .review-skills .review-container .box .image{
-  margin-bottom: 0;
-  margin-right: 50px;
+  .review-skills .review-container .box .image {
+    margin-bottom: 0;
+    margin-right: 50px;
+  }
 }
-}
-.review-skills .review-container .box .image img{
+.review-skills .review-container .box .image img {
   max-height: 100%;
 }
-.review-skills .review-container .box p{
+.review-skills .review-container .box p {
   flex: 1;
   line-height: 1.7;
   position: relative;
 }
-.review-skills .review-container .box p::after{
+.review-skills .review-container .box p::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -721,7 +721,7 @@ ul {
   height: 1px;
   background-color: var(--SmallTextColor);
 }
-.review-skills .review-container .box p span{
+.review-skills .review-container .box p span {
   display: block;
   text-align: right;
   font-style: italic;
@@ -731,22 +731,22 @@ ul {
 .review-skills .dots span {
   border-color: #000;
 }
-.skills .progress-container .box{
+.skills .progress-container .box {
   margin-bottom: 30px;
 }
-.skills .progress-container .box p{
+.skills .progress-container .box p {
   text-transform: uppercase;
   margin-bottom: 8px;
   font-size: 14px;
   font-weight: 800;
 }
-.skills .progress-container .box .progress{
+.skills .progress-container .box .progress {
   width: 100%;
   height: 30px;
   background-color: #eee;
   position: relative;
 }
-.skills .progress-container .box .progress::before{
+.skills .progress-container .box .progress::before {
   content: attr(pr);
   position: absolute;
   top: -30px;
@@ -756,19 +756,19 @@ ul {
   font-size: 13px;
   transform: translate(-50%);
 }
-.skills .progress-container .box:nth-child(1) .progress::before{
+.skills .progress-container .box:nth-child(1) .progress::before {
   left: 95%;
 }
-.skills .progress-container .box:nth-child(2) .progress::before{
+.skills .progress-container .box:nth-child(2) .progress::before {
   left: 93%;
 }
-.skills .progress-container .box:nth-child(3) .progress::before{
+.skills .progress-container .box:nth-child(3) .progress::before {
   left: 85%;
 }
-.skills .progress-container .box:nth-child(4) .progress::before{
+.skills .progress-container .box:nth-child(4) .progress::before {
   left: 87%;
 }
-.skills .progress-container .box .progress::after{
+.skills .progress-container .box .progress::after {
   content: "";
   border: 5px solid var(--mainColor);
   position: absolute;
@@ -797,16 +797,16 @@ ul {
   z-index: 1;
   height: 100%;
 }
-.skills .progress-container .box:nth-child(1) .progress .persant{
+.skills .progress-container .box:nth-child(1) .progress .persant {
   width: 95%;
 }
-.skills .progress-container .box:nth-child(2) .progress .persant{
+.skills .progress-container .box:nth-child(2) .progress .persant {
   width: 93%;
 }
-.skills .progress-container .box:nth-child(3) .progress .persant{
+.skills .progress-container .box:nth-child(3) .progress .persant {
   width: 85%;
 }
-.skills .progress-container .box:nth-child(4) .progress .persant{
+.skills .progress-container .box:nth-child(4) .progress .persant {
   width: 87%;
 }
 /* End Our Skills */
@@ -842,7 +842,7 @@ ul {
 }
 .pricing .prices {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   column-gap: 40px;
   margin-bottom: 30px;
 }
@@ -866,11 +866,11 @@ ul {
   margin: 0 auto;
 }
 .pricing .prices .box .price-box h2::before {
-    content: "$";
-    position: absolute;
-    font-size: 17px;
-    top: 12px;
-    left: -10px;
+  content: "$";
+  position: absolute;
+  font-size: 17px;
+  top: 12px;
+  left: -10px;
 }
 .pricing .prices .box .price-box h2::after {
   content: "/MO";
@@ -920,12 +920,12 @@ ul {
   color: white;
   align-items: center;
 }
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .subscribe .container {
     flex-direction: column;
   }
 }
-.subscribe .container form{
+.subscribe .container form {
   border: 1px solid white;
   height: 50px;
   display: flex;
@@ -937,24 +937,24 @@ ul {
 .subscribe .container form ::placeholder {
   color: white;
 }
-.subscribe .container form i{
+.subscribe .container form i {
   padding: 0 20px;
   color: white;
 }
-.subscribe .container form input[type="email"]{
+.subscribe .container form input[type="email"] {
   border: none;
   background-color: var(--mainColor);
   caret-color: white;
   width: calc(100% - 130px);
   color: white;
 }
-.subscribe .container form input[type="email"]:hover{
+.subscribe .container form input[type="email"]:hover {
   outline: none;
 }
-.subscribe .container form input[type="email"]:focus{
+.subscribe .container form input[type="email"]:focus {
   outline: none;
 }
-.subscribe .container form input[type="submit"]{
+.subscribe .container form input[type="submit"] {
   border: none;
   color: white;
   background-color: var(--SecondColor);
@@ -964,16 +964,16 @@ ul {
   padding: 0 15px;
   width: 130px;
 }
-.subscribe .container p{
+.subscribe .container p {
   margin-left: 30px;
   text-align: center;
   line-height: 1.9;
 }
-@media (max-width:991px) {
-  .subscribe .container p{
+@media (max-width: 991px) {
+  .subscribe .container p {
     width: 500px;
     max-width: 100%;
-    margin: 30px 0 0 0 ;
+    margin: 30px 0 0 0;
   }
 }
 /* End Subscribe */
@@ -985,7 +985,7 @@ ul {
 .contact .contact-container {
   display: flex;
 }
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .contact .contact-container {
     flex-direction: column;
   }
@@ -996,7 +996,7 @@ ul {
   position: relative;
   margin-bottom: 50px;
 }
-.contact .contact-container form ::placeholder{
+.contact .contact-container form ::placeholder {
   color: #000;
   font-size: 13px;
 }
@@ -1011,10 +1011,10 @@ ul {
 .contact .contact-container form input:hover,
 .contact .contact-container form textarea:hover,
 .contact .contact-container form input:focus,
-.contact .contact-container form textarea:focus{
+.contact .contact-container form textarea:focus {
   outline: none;
 }
-.contact .contact-container form input[type="submit"]{
+.contact .contact-container form input[type="submit"] {
   font-size: 13px;
   padding: 15px 30px;
   background-color: var(--SecondColor);
@@ -1026,26 +1026,26 @@ ul {
 .contact .contact-container .info {
   margin-left: 40px;
 }
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .contact .contact-container .info {
     margin: 40px;
     text-align: center;
   }
 }
 .contact .contact-container .one h4,
-.contact .contact-container .two h4{
+.contact .contact-container .two h4 {
   text-transform: uppercase;
   font-weight: 100;
   margin-bottom: 20px;
 }
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .contact .contact-container .one h4,
-  .contact .contact-container .two h4{
+  .contact .contact-container .two h4 {
     font-size: 20px;
   }
 }
 .contact .contact-container .one li,
-.contact .contact-container .two li{
+.contact .contact-container .two li {
   font-size: 13px;
   padding: 5px 0;
   color: var(--SmallTextColor);
